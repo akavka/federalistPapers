@@ -20,5 +20,7 @@ utility.py -  this is where the bulk of the project is. It does many things.
   - with all these functions, it can iterate over the undisputed (training) documents, or the disputed (test) documents.
   
 script.py - this calls functions in utility.py to get the function-words feature set for disputed and undisputed papers
+
 testGensim.py - this calls functions in utility.py to get the tf-idf feature set for disputed and undisputed papers
+
 runsvm.py - this runs the SVM program (a third party C program) on the features sets that script.py and testGensim.py wrote to disk.
