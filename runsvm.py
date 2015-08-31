@@ -1,7 +1,19 @@
 #!/usr/bin/python
+
+"""
+Adam Kavka and Levi Melnick
+December 2014
+
+This runs the SVM program (a third party C program) on the features sets that script.py and testGensim.py wrote to disk.
+"""
+
+
 import utility as u
 import os
 from permute import permute
+
+
+
 
 m=u.getUndisputedFederalistMatrix()
 d=u.getDisputedFederalistMatrix()
