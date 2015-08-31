@@ -1,4 +1,11 @@
 #!/usr/bin/python
+
+"""
+Adam Kavka and Levi Melnick
+December 2014
+
+This calls functions in utility.py to get the tf-idf feature set for disputed and undisputed papers and writes the results to disk.
+"""
 import pickle
 import utility
 
